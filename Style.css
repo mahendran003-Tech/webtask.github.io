@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+Body{
+    margin: 0;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.heater{
+    position: relative;
+    height: 420px;
+
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 375px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1)
+}
+.header-body-seaction{
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+.nav{ 
+    font-weight: 550;
+    height: 0px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+}
+.logocontainer p{
+    padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.nav ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+.Zomato-logo{
+    width: 250px;
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;  
+    flex-direction: column;
+}
+.header-body-content{
+    position: relative;
+    top: -50%;
+}
+.header-body-seaction-Discover{
+    font-size: 40px;
+    margin: 25px 0;
+
+}
+.search-container{
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #000;
+
+}
+.location-map{
+    color: rgb(230,139,139);
+    font-size: 22px;
+}
+.caret-up{
+    color: #000;
+}
+.detectionlocal input{
+    border: none;
+    font-size: 18px;
+    width: 200px;
+}
+.search-item{
+    color: black;
+    font-size: 18px;
+}
+.line{
+    padding: 7px;
+
+}
+.search-item input{
+   max-width: 100%;
+   width: 200px;
+   font-size: 15px;
+   border: none;
+   padding: 0 10px;
+   outline: none;
+}
+/**section 1 feature**/
+.section-1{
+    margin-top: 40px;
+}
+.container-feature{
+    display: flex;
+    justify-content: space-between;
+}
+.futures{
+    overflow: hidden;
+    border-radius: 20px;
+    border: 0.1px solid gray;
+}
+.futures-image{
+    width: 270px;
+    height: 150px;
+    overflow: hidden;
+}
+.futures-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.futures h3
+.futures p{
+    padding-left: 20px;
+}
+.futures:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.footer{
+    padding: 15px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.footer .col{
+    flex-basis: 20%;
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer .language-btn{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.copyright-txt{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
